@@ -1,0 +1,27 @@
+# Environment and credentials — never commit these
+.env
+.instance_id
+
+# Database files
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Exports
+*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
